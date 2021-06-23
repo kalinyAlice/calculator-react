@@ -1,0 +1,22 @@
+/* Importando a font para usar na pagina */
+@font-face{
+  font-family: 'RobotoMono';
+  src: url('./fonts/Roboto-Thin.ttf');
+}
+
+/* usar o * para selecionar todos os componentes e aplicar a font roboto e caso não achar
+a roboto ele usa a monospace */
+
+* {
+  font-family: 'RobotoMono', monospace;
+}
+
+body {
+  display: flex;
+  height: 100vh; /*Altura completa da tela*/
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: antiquewhite;
+  background: linear-gradient(to right, rgb(221, 214, 243), rgb(250, 172, 168));
+}

@@ -1,0 +1,11 @@
+.calculator {
+    height: 320px;
+    width: 235px;
+    border-radius: 5px; 
+    overflow: hidden; /* tudo que tiver pra ler na calculadora será escondido no caso se passar do limite ele esconde*/
+    
+    display: grid; /*já é pra deixar cada componente em uma linha*/
+    grid-template-columns: repeat(4, 25%); /*criando 4 colunas, cada uma de 25%. Repetindo 4 vezes viram 4 linhas tbm*/
+    grid-template-rows: 1fr 48px 48px 48px 48px 48px; /*deixando as linhas com 48px (ficam mais finas), poderia ter feito igual la em cima usando repeat. 1fr procurar sobre fragment, mas ocupa */
+    
+}
